@@ -5,7 +5,7 @@ func Soal4(n int) []int {
 	result := make([]int, n)
 	for i := 0; i < n; i++ {
 		result[i] = num
-		num -= 1
+		num -= 2
 	}
 	return result
 }

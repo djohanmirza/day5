@@ -1,8 +1,8 @@
 package logic1
 
-func Soal71(n int) []int {
+func Soal81(n int) []int {
 	mid := n / 2
-	num := 1
+	num := 2
 	result := make([]int, n)
 
 	for i := 0; i < n; i++ {
@@ -12,14 +12,13 @@ func Soal71(n int) []int {
 		} else if i > mid {
 			num -= 2
 		}
-
 	}
 	return result
 }
 
-func Soal72(n int) []int {
+func Soal82(n int) []int {
 	mid := n / 2
-	num := 1
+	num := 2
 	result := make([]int, n)
 
 	for i := 0; i < n; i++ {
@@ -29,7 +28,6 @@ func Soal72(n int) []int {
 		} else if i >= mid {
 			num -= 2
 		}
-
 	}
 	return result
 }
