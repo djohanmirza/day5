@@ -5,8 +5,8 @@ import go_slice_fresh "github.com/djohanmirza/Slice-Fresh"
 func Soal5b(n int) (result [][]int) {
 	result = go_slice_fresh.CreateSlice(n)
 	start := 1
-	for i := 1; i < n; i++ {
-		for j := 0; j < i; j++ {
+	for i := 0; i < n; i++ {
+		for j := 0; j < n; j++ {
 			if i%2 == 0 {
 				result[i][j] = start
 				start += 2
